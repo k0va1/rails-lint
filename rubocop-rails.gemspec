@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |spec|
   spec.name = "rails-lint"
-  spec.version = "1.0.0"
+  spec.version = "1.0.1"
   spec.authors = ["k0va1"]
   spec.email = ["al3xander.koval@gmail.com"]
 
@@ -28,4 +28,5 @@ Gem::Specification.new do |spec|
 
   spec.add_dependency "rubocop-ruby"
   spec.add_dependency "rubocop-rails"
+  spec.add_dependency "erb_lint"
 end
