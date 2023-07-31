@@ -1,4 +1,3 @@
-inherit_from: rubocop_ruby.yml
-
-require:
-  - rubocop-rails
+inherit_gem:
+  rubocop-ruby:
+    - .rubocop.yml

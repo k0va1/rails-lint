@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    rails-lint (1.0.1)
+    rails-lint (1.0.2)
       erb_lint
       rubocop-rails
       rubocop-ruby
@@ -92,7 +92,7 @@ GEM
       rubocop (~> 1.33)
       rubocop-capybara (~> 2.17)
       rubocop-factory_bot (~> 2.22)
-    rubocop-ruby (1.0.0)
+    rubocop-ruby (1.0.1)
       rubocop (~> 1.44.1)
       rubocop-performance
       rubocop-rspec
