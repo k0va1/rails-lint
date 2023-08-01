@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    rails-lint (1.0.2)
+    rails-lint (1.0.3)
       erb_lint
       rubocop-rails
       rubocop-ruby
