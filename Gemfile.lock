@@ -1,7 +1,15 @@
 PATH
+  remote: ../rubocop-ruby
+  specs:
+    rubocop-ruby (1.0.1)
+      rubocop (~> 1.44.1)
+      rubocop-performance
+      rubocop-rspec
+
+PATH
   remote: .
   specs:
-    rails-lint (1.0.3)
+    rails-lint (1.0.4)
       erb_lint
       rubocop-rails
       rubocop-ruby
@@ -92,10 +100,6 @@ GEM
       rubocop (~> 1.33)
       rubocop-capybara (~> 2.17)
       rubocop-factory_bot (~> 2.22)
-    rubocop-ruby (1.0.1)
-      rubocop (~> 1.44.1)
-      rubocop-performance
-      rubocop-rspec
     ruby-progressbar (1.13.0)
     smart_properties (1.17.0)
     tzinfo (2.0.6)
@@ -108,6 +112,7 @@ PLATFORMS
 DEPENDENCIES
   rails-lint!
   rake (~> 13.0)
+  rubocop-ruby!
 
 BUNDLED WITH
    2.4.8

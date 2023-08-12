@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |spec|
   spec.name = "rails-lint"
-  spec.version = "1.0.3"
+  spec.version = "1.0.4"
   spec.authors = ["k0va1"]
   spec.email = ["al3xander.koval@gmail.com"]
 

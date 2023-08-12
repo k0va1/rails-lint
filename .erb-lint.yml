@@ -3,12 +3,11 @@ EnableDefaultLinters: true
 linters:
   ErbSafety:
     enabled: true
-    better_html_config: .better-html.yml
   Rubocop:
     enabled: true
     rubocop_config:
-      inherit_from:
-        - .rubocop.yml
+      inherit_gem:
+        rails-lint: .rubocop.yml
       Layout/InitialIndentation:
         Enabled: false
       Layout/LineLength:
@@ -21,5 +20,5 @@ linters:
         Enabled: false
       Style/FrozenStringLiteralComment:
         Enabled: false
-      Rails/OutputSafety:
+      Lint/UselessAssignment:
         Enabled: false
